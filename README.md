@@ -1,8 +1,8 @@
-Market Basket Analysis Using Apriori and FP-Growth Algorithms
-Overview
+**Market Basket Analysis Using Apriori and FP-Growth Algorithms**
+**Overview**
 This project aims to optimize product recommendations, marketing strategies, and inventory management for Instacart's online grocery shopping platform. By leveraging Market Basket Analysis, we uncover hidden patterns and associations within a large dataset of customer orders. The findings can help improve customer satisfaction, increase average order value, and optimize business operations.
 
-Problem Objective
+**Problem Objective**
 The main goal of this analysis is to understand customer purchasing behavior to inform business strategies in the following areas:
 
 Identifying High-Frequency Co-Purchased Product Combinations:
@@ -23,7 +23,7 @@ Inform future product development, assortment planning, and pricing strategies t
 Dataset
 The dataset used for this analysis is based on Instacart's Online Grocery Shopping Dataset. It consists of over 3 million grocery orders from more than 200,000 Instacart users.
 
-Dataset Description
+**Dataset Description**
 The dataset includes the following key files:
 
 Orders: Contains information about customer orders.
@@ -31,7 +31,8 @@ Products: Contains details about the products available on the platform.
 Order Products: Shows which products were purchased in each order.
 Departments: Lists different departments of products.
 Aisles: Categorizes products into aisles.
-Approach
+
+**Approach**
 1. Data Preprocessing
 Data cleaning and preprocessing, including handling missing values and formatting the data for analysis.
 Encoding the transaction data into a format suitable for Market Basket Analysis.
@@ -41,14 +42,16 @@ FP-Growth Algorithm: An alternative approach to find frequent patterns more effi
 3. Analysis of Results
 Extract insights on high-frequency product combinations, customer segments, and purchasing patterns.
 Provide recommendations for marketing, inventory management, and customer segmentation.
-Algorithms
-Apriori Algorithm
+
+**Algorithms**
+*Apriori Algorithm*
 A classical algorithm for identifying frequent itemsets in a dataset by using a "bottom-up" approach.
 Generates association rules based on user-defined support and confidence thresholds.
-FP-Growth Algorithm
+*FP-Growth Algorithm*
 An efficient method for discovering frequent itemsets using a tree-based structure (FP-tree).
 Avoids the need for candidate generation, making it faster than Apriori on large datasets.
-Requirements
+
+**Requirements**
 To run the project, you'll need the following Python libraries:
 
 pandas
