@@ -1,5 +1,7 @@
 **Market Basket Analysis Using Apriori and FP-Growth Algorithms**
+
 **Overview**
+
 This project aims to optimize product recommendations, marketing strategies, and inventory management for Instacart's online grocery shopping platform. By leveraging Market Basket Analysis, we uncover hidden patterns and associations within a large dataset of customer orders. The findings can help improve customer satisfaction, increase average order value, and optimize business operations.
 
 **Problem Objective**
