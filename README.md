@@ -29,9 +29,13 @@ The dataset used for this analysis is based on Instacart's Online Grocery Shoppi
 The dataset includes the following key files:
 
 Orders: Contains information about customer orders.
+
 Products: Contains details about the products available on the platform.
+
 Order Products: Shows which products were purchased in each order.
+
 Departments: Lists different departments of products.
+
 Aisles: Categorizes products into aisles.
 
 **Approach**
@@ -57,10 +61,16 @@ Avoids the need for candidate generation, making it faster than Apriori on large
 To run the project, you'll need the following Python libraries:
 
 pandas
+
 numpy
+
 mlxtend
+
 matplotlib
+
 seaborn
+
+
 You can install these packages using:
 
 bash
@@ -70,9 +80,13 @@ Running the Project
 Clone the Repository
 
 bash
+
 Copy code
+
 git clone https://github.com/your-username/market-basket-analysis.git
+
 cd market-basket-analysis
+
 Prepare the Dataset
 
 Download the Instacart dataset from Instacart's website.
